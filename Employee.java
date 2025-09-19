@@ -31,20 +31,26 @@ public class Employee{
      */
     public boolean canDrive(){
         int age = calculateAge(2025);
-        // to be completed
+        if (calculate.Age>16)
+        return True;
+        else
+        return False;
     }
 
     /*
      * Returns the net pay for the outstanding unpaid hours
      */
     private double calculatePay(){
-        // to be completed
+        int calculatePay=(hourlyWage*unpaidHours);
     }
 
     /*
      * Output the payment record and resets unpaid hours
      */
     public void paySalary(){
-        // to be completed
+        get.int calculatePay;
+        send.int calculatePayToJohnDeere;
+        print;"Jonh has received a transfer of 70 CAD";
+        return unpaidHours()=0;
     }
 }
