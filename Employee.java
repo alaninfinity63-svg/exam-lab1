@@ -31,10 +31,10 @@ public class Employee{
      */
     public boolean canDrive(){
         int age = calculateAge(2025);
-        if (calculate.Age>16)
-        return True;
+        if (calculate.age>16)
+        return true;
         else
-        return False;
+        return false;
     }
 
     /*
@@ -50,8 +50,8 @@ public class Employee{
     public void paySalary(){
         get.int calculatePay;
         send.int calculatePayToJohnDeere;
-        print;"Jonh has received a transfer of 70 CAD";
-        return unpaidHours()=0;
+        system0utprintln;"Jonh has received a transfer of 70 CAD";
+        reset unpaidHours()=0;
     }
 }
 q11
