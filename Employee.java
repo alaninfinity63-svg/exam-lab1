@@ -31,7 +31,7 @@ public class Employee{
      */
     public boolean canDrive(){
         int age = calculateAge(2025);
-        if (calculate.age>16)
+        if (age>16)
         return true;
         else
         return false;
@@ -41,24 +41,25 @@ public class Employee{
      * Returns the net pay for the outstanding unpaid hours
      */
     private double calculatePay(){
-        int calculatePay=(hourlyWage*unpaidHours);
+        double pay=(hourlyWage*unpaidHours);
+        double finalPay = pay * 0.70;
+        return finalPay;
     }
 
     /*
      * Output the payment record and resets unpaid hours
      */
     public void paySalary(){
-        get.int calculatePay;
-        send.int calculatePayToJohnDeere;
-        system0utprintln;"Jonh has received a transfer of 70 CAD";
-        reset unpaidHours()=0;
+        double pay = calculatePay();
+        System.out.println("Jonh has received a transfer of "+ pay +" CAD");
+        unpaidHours=0;
     }
 }
-q11
-private string fullname
-fullname();
-unpaidHours();
-private int yearOfBirth
-currentyear();
-yearOfBirth();
-calculateAge();
+// q11
+// private string fullname
+// fullname();
+// unpaidHours();
+// private int yearOfBirth
+// currentyear();
+// yearOfBirth();
+// calculateAge();
