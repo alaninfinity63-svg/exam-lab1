@@ -54,3 +54,11 @@ public class Employee{
         return unpaidHours()=0;
     }
 }
+q11
+private string fullname
+fullname();
+unpaidHours();
+private int yearOfBirth
+currentyear();
+yearOfBirth();
+calculateAge();
